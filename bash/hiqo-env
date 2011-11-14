@@ -1,0 +1,6 @@
+# Path for working with Mongo DB 1.4.2 in hiqo sollution
+# TODO: try set this option "if path doesn't contain" or "if mongod is not responding"
+# export PATH=~/Work/hiqo/mongodb-osx-x86_64-1.4.2/bin:$PATH
+# for some resaosons I've got mongo here /usr/local/Cellar/mongodb/1.8.2-x86_64
+~/Work/hiqo/mongodb-osx-x86_64-1.4.2/bin/mongod --dbpath ~/Work/hiqo/db
+
