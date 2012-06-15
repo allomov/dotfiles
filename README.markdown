@@ -1,5 +1,5 @@
-Hello, world
-============
+Hello, world!
+=============
 
 This is my dotfiles. All kinds of constructive suggestions are approsiated as always.
 
@@ -15,6 +15,6 @@ echo 'source ~/dotfiles/bash/config'    >> ~/.bash_profile
 ```
 
 Afterwords
-
+----------
 Use this [gist](https://gist.github.com/2932850) for quick _git_ setup.
 
