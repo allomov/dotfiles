@@ -34,6 +34,6 @@ PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
 export PATH
 
 
-export EDITOR="mate -w"
-export CVSEDITOR="mate -w"
-export SVN_EDITOR="mate -w"
+export EDITOR="vi"
+export CVSEDITOR=$EDITOR
+export SVN_EDITOR=$EDITOR
