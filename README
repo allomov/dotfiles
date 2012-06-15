@@ -1,0 +1,3 @@
+echo 'source ~/dotfiles/bash/env'       >> ~/.bash_profile
+echo 'source ~/dotfiles/bash/aliases'   >> ~/.bash_profile
+echo 'source ~/dotfiles/bash/config'    >> ~/.bash_profile
