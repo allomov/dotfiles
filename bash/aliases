@@ -2,8 +2,8 @@
 
 # Utility
 alias reload='source ~/bin/dotfiles/bash/aliases'
-alias ea='$EDITOR -w ~/bin/dotfiles/bash/aliases && reload' # Edit aliases
-alias ee="$EDITOR ~/bin/dotfiles/bash/env"
+alias ea='$EDITOR -w $DOTFILES/bash/aliases && reload' # Edit aliases
+alias ee="$EDITOR $DOTFILES/bash/env"
 
 # Quicker cd
 alias cg='cd /Library/Ruby/Gems/1.8/gems/'
