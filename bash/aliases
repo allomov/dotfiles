@@ -1,7 +1,7 @@
 # Command Enhancements
 
 # Utility
-alias reload='source ~/bin/dotfiles/bash/aliases'
+alias reload='source $DOTFILES/bash/aliases'
 alias ea='$EDITOR -w $DOTFILES/bash/aliases && reload' # Edit aliases
 alias ee="$EDITOR $DOTFILES/bash/env"
 
