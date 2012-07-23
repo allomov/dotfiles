@@ -2,7 +2,7 @@
 
 # Utility
 alias reload='source $DOTFILES/bash/aliases'
-alias ea='$EDITOR -w $DOTFILES/bash/aliases && reload' # Edit aliases
+alias ea='$EDITOR $DOTFILES/bash/aliases && reload' # Edit aliases
 alias ee="$EDITOR $DOTFILES/bash/env"
 
 # Quicker cd
@@ -81,6 +81,7 @@ alias gb='git branch'
 alias gba='git branch -a'
 alias gc='git commit -v'
 alias gca='git commit -v -a'
+alias gd='git diff'
 # Commit pending changes and quote all args as message
 function gg() { 
     git commit -v -a -m "$*"
@@ -156,13 +157,15 @@ alias mr='mongrel_rails start'
 alias rials='rails'
 alias ms='mongrel_rails stop'
 alias rp='touch tmp/restart.txt'
-alias sc='./script/console'
-alias sg='./script/generate'
+alias rc='rails c'
+alias rg='rails g'
+alias rsd='rails s --debugger'
 alias sp='./script/plugin'
-alias ss='./script/server'
+alias rs='rails s'
 alias tl='tail -f log/*.log'
 alias ts='thin start'
-alias bex='bundle exec'
+alias be='bundle exec'
+alias b='bundle'
 
 
 # TDD / BDD
@@ -173,6 +176,7 @@ alias aas="./script/autospec"
 alias cuc='cucumber'
 alias spk='bundle exec spork'
 alias spk_all='bundle exec spork & bundle exec spork cucumber &'
+alias rs='rspec'
 
 
 # Setup a tunnel

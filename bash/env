@@ -1,40 +1,26 @@
-
 # Set PATH, CDPATH, EDITOR, etc.
 
 # PATH twick for this config
-export PATH=/Users/alomov/bin:$PATH
+# export PATH=/Users/allomov/bin:$PATH
 
 
 # Copied from ~/.profile
 # MacPorts Installer addition on 2011-07-16_at_19:21:43: adding an appropriate PATH variable for use with MacPorts.
-export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+# export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 # Finished adapting your PATH environment variable for use with MacPorts.
 
 # GraphViz
-export PATH=/usr/local/graphviz-2.14/bin:$PATH
-
-
+# export PATH=/usr/local/graphviz-2.14/bin:$PATH
 
 # RVM env
 if [[ -s ~/.rvm/scripts/rvm ]] ; then source ~/.rvm/scripts/rvm ; fi
 
 # Setting PATH for Python 2.7
 # The orginal version is saved in .bash_profile.pysave
-PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
-export PATH
-
-# Setting PATH for Python 2.7
-# The orginal version is saved in .bash_profile.pysave
-PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
-export PATH
-
-# Setting PATH for Python 2.7
-# The orginal version is saved in .bash_profile.pysave
-PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
-export PATH
-
+# PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
+# export PATH
 
 export EDITOR="vi"
 export CVSEDITOR=$EDITOR
 export SVN_EDITOR=$EDITOR
-export DOTFILES="~/dotfiles"
+export DOTFILES="/Users/allomov/dotfiles"
