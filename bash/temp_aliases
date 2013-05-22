@@ -1,0 +1,4 @@
+alias deploy_dev="bundle exec cap dev_main deploy; bundle exec cap dev_main deploy:god:stop; bundle exec cap dev_main deploy:god:start; bundle exec cap dev_main deploy:god:start_unicorn"
+alias deploy_stage="bundle exec cap dev deploy; bundle exec cap dev deploy:god:stop;bundle exec cap dev deploy:god:start; bundle exec cap deploy:god:start_unicorn"
+alias go_bank='cd ~/work/absolute/absolutbank'
+alias go_sw='cd ~/work/startwire'
