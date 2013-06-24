@@ -14,6 +14,12 @@ echo 'source ~/dotfiles/bash/aliases'   >> ~/.bash_profile
 echo 'source ~/dotfiles/bash/config'    >> ~/.bash_profile
 ```
 
+to restore iterm settings use this command
+```bash
+cp ~/dotfiles/iterm/com.googlecode.iterm2.plist ~/Library/Preferences/com.googlecode.iterm2.plist
+```
+
+
 Afterwords
 ----------
 Use this [gist](https://gist.github.com/2932850) for quick _git_ setup.
