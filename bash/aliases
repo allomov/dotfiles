@@ -148,6 +148,7 @@ alias etr="mate app config lib db schema public spec test vendor/gems vendor/plu
 
 # Ruby
 alias r="rake"
+alias bs="bundle show"
 
 function markdown() { 
 /Applications/TextMate.app/Contents/SharedSupport/Support/bin/Markdown.pl $1 > $1.html 
@@ -180,7 +181,7 @@ alias brc='bundle exec rails c'
 alias b='bundle'
 alias bi='bundle install'
 alias ass='rake assets:precompile'
-alias fs='foreman start'
+alias frs='foreman start'
 
 # TDD / BDD
 
@@ -296,3 +297,13 @@ alias go_new_tv='cd ~/Work/angel-tv/ruby/test/new_site'
 # f#cking Apache 2
 alias start_apache='sudo /opt/local/etc/LaunchDaemons/org.macports.apache2/apache2.wrapper start'
 alias stop_apache='sudo /opt/local/etc/LaunchDaemons/org.macports.apache2/apache2.wrapper stop'
+
+# f#cking Redis (brew installer)
+alias redis_start='redis-server /usr/local/etc/redis.conf'
+
+
+# Chef and Knife
+alias k='knife'
+
+
+
