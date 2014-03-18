@@ -83,7 +83,7 @@ alias hgc="hg commit"
 alias ungit="find . -name '.git' -exec rm -rf {} \;"
 alias gb='git branch'
 alias gba='git branch -a'
-alias gc='git commit -v'
+alias gcl='git clone'
 alias gca='git commit -v -a'
 alias gd='git diff'
 # Commit pending changes and quote all args as message
@@ -304,5 +304,7 @@ alias redis_start='redis-server /usr/local/etc/redis.conf'
 # Chef and Knife
 alias k='knife'
 
-
-
+# Vagrant
+alias vssh='vagrant ssh'
+alias vu='vagrant up'
+alias vs='vagrant suspend'
