@@ -87,8 +87,9 @@ alias gcl='git clone'
 alias gca='git commit -v -a'
 alias gd='git diff'
 # Commit pending changes and quote all args as message
+alias gp='git add -p'
 function gg() { 
-    git commit -v -a -m "$*"
+    git commit -v -m "$*"
 }
 alias gco='git checkout'
 alias gd='git diff'
@@ -128,6 +129,13 @@ function new-git() {
 # Git flow
 alias start_feature='git flow feature start'
 alias finish_feature='git flow feature finish'
+
+
+# Bazaar (bzr)
+alias bzi='bzr info'
+alias bzs='bzr status'
+alias brd='bzr cdiff'
+alias bzc='bzr commit'
 
 
 

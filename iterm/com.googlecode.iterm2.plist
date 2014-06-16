@@ -774,11 +774,11 @@
 	<key>NSTableView Sort Ordering KeyBingingTable</key>
 	<array/>
 	<key>NSWindow Frame Preferences</key>
-	<string>388 197 924 485 0 0 1440 878 </string>
+	<string>388 187 924 485 0 0 1440 878 </string>
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>80 194 592 584 0 0 1280 778 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 327 570 451 0 0 1440 878 </string>
+	<string>0 4 1440 874 0 0 1440 878 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>0 38 1277 740 0 0 1280 778 </string>
 	<key>NeverWarnAboutShortLivedSessions_2ECD774E-3C69-48CE-9BAA-719D1BFD256E</key>
@@ -800,6 +800,8 @@
 			<string></string>
 			<key>AWDS Window Option</key>
 			<string>No</string>
+			<key>Allow Title Reporting</key>
+			<false/>
 			<key>Ambiguous Double Width</key>
 			<false/>
 			<key>Ansi 0 Color</key>
@@ -959,6 +961,8 @@
 				<key>Red Component</key>
 				<real>0.12549020349979401</real>
 			</dict>
+			<key>Background Image Is Tiled</key>
+			<false/>
 			<key>Background Image Location</key>
 			<string></string>
 			<key>Blend</key>
@@ -1505,6 +1509,10 @@
 			<true/>
 			<key>Use Bright Bold</key>
 			<true/>
+			<key>Use Canonical Parser</key>
+			<false/>
+			<key>Use Italic Font</key>
+			<false/>
 			<key>Vertical Spacing</key>
 			<real>1</real>
 			<key>Visual Bell</key>
@@ -1623,7 +1631,7 @@
 	<key>WindowStyle</key>
 	<integer>3</integer>
 	<key>WordCharacters</key>
-	<string>/-+\~_.</string>
+	<string> </string>
 	<key>findIgnoreCase_iTerm</key>
 	<true/>
 	<key>findRegex_iTerm</key>
