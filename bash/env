@@ -12,8 +12,6 @@
 # GraphViz
 # export PATH=/usr/local/graphviz-2.14/bin:$PATH
 
-# RVM env
-if [[ -s ~/.rvm/scripts/rvm ]] ; then source ~/.rvm/scripts/rvm ; fi
 
 # Setting PATH for Python 2.7
 # The orginal version is saved in .bash_profile.pysave

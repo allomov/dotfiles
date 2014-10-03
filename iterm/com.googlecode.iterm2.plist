@@ -721,7 +721,7 @@
 	<key>HideScrollbar</key>
 	<false/>
 	<key>HideTab</key>
-	<true/>
+	<false/>
 	<key>HighlightTabLabels</key>
 	<true/>
 	<key>HotKeyBookmark</key>
@@ -774,13 +774,13 @@
 	<key>NSTableView Sort Ordering KeyBingingTable</key>
 	<array/>
 	<key>NSWindow Frame Preferences</key>
-	<string>388 187 924 485 0 0 1440 878 </string>
+	<string>-1052 -4 924 485 -1440 -191 1440 878 </string>
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>80 194 592 584 0 0 1280 778 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 4 1440 874 0 0 1440 878 </string>
+	<string>0 14 1438 864 0 0 1440 900 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>0 38 1277 740 0 0 1280 778 </string>
+	<string>0 0 1440 878 0 0 1440 878 </string>
 	<key>NeverWarnAboutShortLivedSessions_2ECD774E-3C69-48CE-9BAA-719D1BFD256E</key>
 	<true/>
 	<key>New Bookmarks</key>
@@ -1597,7 +1597,7 @@
 	<key>ShowBookmarkName</key>
 	<false/>
 	<key>ShowFullScreenTabBar</key>
-	<true/>
+	<false/>
 	<key>ShowPaneTitles</key>
 	<true/>
 	<key>SmartPlacement</key>
@@ -1629,9 +1629,9 @@
 	<key>WindowNumber</key>
 	<true/>
 	<key>WindowStyle</key>
-	<integer>3</integer>
+	<integer>0</integer>
 	<key>WordCharacters</key>
-	<string> </string>
+	<string></string>
 	<key>findIgnoreCase_iTerm</key>
 	<true/>
 	<key>findRegex_iTerm</key>
