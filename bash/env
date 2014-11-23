@@ -18,7 +18,8 @@
 # PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
 # export PATH
 
-export EDITOR="vi"
+export EDITOR=$(which vi)
 export CVSEDITOR=$EDITOR
 export SVN_EDITOR=$EDITOR
+export BZR_EDITOR="${EDITOR} -u NONE"
 export DOTFILES="/Users/allomov/dotfiles"

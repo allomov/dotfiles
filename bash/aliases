@@ -9,19 +9,21 @@ alias ea='$EDITOR $DOTFILES/bash/aliases && reload' # Edit aliases
 alias ee="$EDITOR $DOTFILES/bash/env"
 
 # Quicker cd
-alias cg='cd /Library/Ruby/Gems/1.8/gems/'
-function cr() {
- cd ~/repos/$*
+alias cg='cd ~/work/github/'
+function cw() {
+ cd ~/work/$*
 }
 
 # Common -- Some are from Damian Conway
-alias a='ls -A' # -A all except literal . ..
 alias la="ls -A -l -G"
 alias c='clear'
 alias cdd='cd -'  # goto last dir cd'ed from
 alias cl='clear; l'
-function cdc() { 
-    cd $1; ls 
+function mkcd() { 
+    mkdir -p $1; cd $1
+}
+function cdl() { 
+    cd $1; l 
 }
 alias cls='clear; ls'
 alias h='history'
@@ -36,7 +38,6 @@ alias s='cd ..'   # up one dir
 alias rgrep='grep -ri'
 alias gri='grep -ri'
 alias hist='history | grep'
-
 
 function take() { 
     mkdir -p "$1"
@@ -317,3 +318,14 @@ alias k='knife'
 alias vssh='vagrant ssh'
 alias vu='vagrant up'
 alias vs='vagrant suspend'
+
+#Docker 
+alias b2d='boot2docker start'
+alias dl='docker ps -l -q'
+alias drun='docker run -t -i'
+alias dstop='docker stop'
+alias dip="docker inspect \`dl\` | grep IPAddress | cut -d '\"' -f 4"
+
+
+
+alias mp="lbox propose -cr"
