@@ -9,6 +9,9 @@ Install
 To install dotfiles simply clone repo to home folder and run this script:
 
 ```bash
+curl -L https://raw.github.com/git/git/master/contrib/completion/git-prompt.sh > ~/.bash_git
+
+echo 'source ~/.bash_git'               >> ~/.bash_profile
 echo 'source ~/dotfiles/bash/env'       >> ~/.bash_profile
 echo 'source ~/dotfiles/bash/aliases'   >> ~/.bash_profile
 echo 'source ~/dotfiles/bash/config'    >> ~/.bash_profile

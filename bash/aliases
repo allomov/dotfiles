@@ -333,4 +333,3 @@ alias mp="lbox propose -cr"
 alias da='direnv allow'
 alias npm-exec='export PATH=$(npm bin):$PATH'
 
-

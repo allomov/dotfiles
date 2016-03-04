@@ -1,7 +1,7 @@
 # Set PATH, CDPATH, EDITOR, etc.
 
 # PATH twick for this config
-# export PATH=/Users/allomov/bin:$PATH
+export PATH=$HOME/bin:$PATH
 
 
 # Copied from ~/.profile
