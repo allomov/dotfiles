@@ -299,15 +299,15 @@ alias start_work='source ~/bin/dotfiles/bash/hiqo-env' # add env for hiqo work
 alias go_tv='cd ~/Work/angel-tv'
 alias go_new_tv='cd ~/Work/angel-tv/ruby/test/new_site'
 
-# f#cking mysql 
+# mysql 
 # alias start_mysql=''
 
 
-# f#cking Apache 2
+# Apache 2
 alias start_apache='sudo /opt/local/etc/LaunchDaemons/org.macports.apache2/apache2.wrapper start'
 alias stop_apache='sudo /opt/local/etc/LaunchDaemons/org.macports.apache2/apache2.wrapper stop'
 
-# f#cking Redis (brew installer)
+# Redis (brew installer)
 alias redis_start='redis-server /usr/local/etc/redis.conf'
 
 
@@ -320,7 +320,7 @@ alias vu='vagrant up'
 alias vs='vagrant suspend'
 
 #Docker 
-alias b2d='boot2docker start'
+alias dstart='docker-machine start default'
 alias dl='docker ps -l -q'
 alias drun='docker run -t -i'
 alias dstop='docker stop'
