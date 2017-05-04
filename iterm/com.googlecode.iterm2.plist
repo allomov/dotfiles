@@ -750,6 +750,8 @@
 	<false/>
 	<key>NSNavLastRootDirectory</key>
 	<string>~/Documents</string>
+	<key>NSNavPanelExpandedSizeForSaveMode</key>
+	<string>{712, 565}</string>
 	<key>NSQuotedKeystrokeBinding</key>
 	<string></string>
 	<key>NSRepeatCountBinding</key>
@@ -774,13 +776,13 @@
 	<key>NSTableView Sort Ordering KeyBingingTable</key>
 	<array/>
 	<key>NSWindow Frame Preferences</key>
-	<string>-1052 -4 924 485 -1440 -191 1440 878 </string>
+	<string>388 186 924 485 0 0 1440 877 </string>
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>80 194 592 584 0 0 1280 778 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 14 1438 864 0 0 1440 900 </string>
+	<string>0 4 1440 873 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>0 0 1440 878 0 0 1440 878 </string>
+	<string>0 13 1424 864 0 0 1440 877 </string>
 	<key>NeverWarnAboutShortLivedSessions_2ECD774E-3C69-48CE-9BAA-719D1BFD256E</key>
 	<true/>
 	<key>New Bookmarks</key>
@@ -1386,11 +1388,11 @@
 			<key>Semantic History</key>
 			<dict>
 				<key>action</key>
-				<string>best editor</string>
+				<string>command</string>
 				<key>editor</key>
 				<string>com.sublimetext.2</string>
 				<key>text</key>
-				<string></string>
+				<string>/usr/local/bin/code -r -g \1:\2</string>
 			</dict>
 			<key>Send Code When Idle</key>
 			<false/>
