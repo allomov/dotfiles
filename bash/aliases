@@ -325,7 +325,9 @@ alias dl='docker ps -l -q'
 alias drun='docker run -t -i'
 alias dstop='docker stop'
 alias dip="docker inspect \`dl\` | grep IPAddress | cut -d '\"' -f 4"
-
+alias dcm='docker-compose'
+alias dcr='docker-compose run'
+alias dcu='docker-compose up'
 
 
 alias mp="lbox propose -cr"
